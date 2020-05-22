@@ -42,7 +42,7 @@
         <section>
 
             {% for repository in site.github.public_repositories %} 
-             <p {{ repository.name }} ><a href="{{ repository.html_url }}">
+             <p {{ repository.name }} /><a href="{{ repository.html_url }}" />
             {% endfor %}
           
             {{ content }} 
