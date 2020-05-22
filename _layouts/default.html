@@ -41,13 +41,7 @@
         </header>
         <section>
 
-            {% for repository in site.github.public_repositories %} 
-               <p class="view"><a href="href="{{ repository.html_url }}">{{ repository.name }}</a></p>
-            {% endfor %}
-          
             {{ content }} 
-            
-
 
         </section>
     </div>
